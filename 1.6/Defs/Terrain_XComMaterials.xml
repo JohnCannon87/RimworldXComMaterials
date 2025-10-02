@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======================== Alien Alloy Tile ======================== -->
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>AlienAlloyTile</defName>
+    <label>alien alloy tile</label>
+    <renderPrecedence>243</renderPrecedence>
+    <description>Advanced alien alloy flooring, incredibly strong, slightly radiant and practically indestructible. It’s easy to clean and gives a subtle tech aesthetic.</description>
+    <color>(90,80,120)</color>
+    <statBases>
+      <Beauty>1</Beauty>
+      <WorkToBuild>900</WorkToBuild>
+      <Cleanliness>0.25</Cleanliness>
+      <CleaningTimeFactor>0.5</CleaningTimeFactor>
+    </statBases>
+    <costList>
+      <BlocksAlienAlloys>7</BlocksAlienAlloys>
+    </costList>
+    <designationHotKey>Misc8</designationHotKey>
+    <uiOrder>2043</uiOrder>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+  </TerrainDef>
+
+  <!-- ======================== Aqua Plastic Tile ======================== -->
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>AquaPlasticTile</defName>
+    <label>aqua plastic tile</label>
+    <renderPrecedence>244</renderPrecedence>
+    <description>Alien construction-grade aqua plastic flooring — resilient, flexible, and perfectly smooth. Comfortable underfoot and excellent for sterile environments.</description>
+    <color>(130,90,0)</color>
+    <statBases>
+      <Beauty>1</Beauty>
+      <WorkToBuild>850</WorkToBuild>
+      <Cleanliness>0.3</Cleanliness>
+      <CleaningTimeFactor>0.5</CleaningTimeFactor>
+    </statBases>
+    <costList>
+      <BlocksAquaPlastics>7</BlocksAquaPlastics>
+    </costList>
+    <designationHotKey>Misc9</designationHotKey>
+    <uiOrder>2044</uiOrder>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+  </TerrainDef>
+
+</Defs>

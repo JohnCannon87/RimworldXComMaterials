@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Elerium</defName>
+    <label>elerium-115</label>
+    <description>"This element has the unusual property of generating anti-matter power when bombarded by certain particles. This creates gravity waves and other forms of energy. It is not naturally found in our solar system and cannot be reproduced." - UFO: Enemy Unknown UFOpaedia</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Elerium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.6</drawSize>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>0.009</Mass>
+      <StuffPower_Armor_Sharp>0.12</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.16</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.75</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>500</stackLimit>
+    <smallVolume>true</smallVolume>
+    <burnableByRecipe>false</burnableByRecipe>
+    <stuffProps>
+      <appearance>Metal</appearance>
+      <color>(224,160,0)</color>
+      <commonality>0.001</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>0.2</MaxHitPoints>
+        <Beauty>0</Beauty>
+        <Flammability>10</Flammability>
+        <WorkToMake>2.0</WorkToMake>
+        <WorkToBuild>2.0</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>1.7</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
+</Defs>

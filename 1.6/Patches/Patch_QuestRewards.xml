@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Add Elerium as a possible high-value quest reward -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingSetMakerDef[defName="Reward_ItemsStandard"]/root/options/li[2]/thingSetMaker/options</xpath>
+    <value>
+      <li>
+        <weight>0.5</weight>
+        <thingSetMaker Class="ThingSetMaker_MarketValue">
+          <fixedParams>
+            <filter>
+              <thingDefs>
+                <li>Elerium</li>
+              </thingDefs>
+            </filter>
+          </fixedParams>
+        </thingSetMaker>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Add Zrbite as a possible high-value quest reward -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingSetMakerDef[defName="Reward_ItemsStandard"]/root/options/li[2]/thingSetMaker/options</xpath>
+    <value>
+      <li>
+        <weight>0.5</weight>
+        <thingSetMaker Class="ThingSetMaker_MarketValue">
+          <fixedParams>
+            <filter>
+              <thingDefs>
+                <li>Zrbite</li>
+              </thingDefs>
+            </filter>
+          </fixedParams>
+        </thingSetMaker>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

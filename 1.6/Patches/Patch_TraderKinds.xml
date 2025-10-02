@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- Add to orbital exotic trader -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>BlocksAlienAlloys</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>BlocksAquaPlastics</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>2000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Elerium</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Zrbite</thingDef>
+        <countRange>
+          <min>1</min>
+          <max>10</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Add to caravan exotic trader -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Elerium</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Zrbite</thingDef>
+        <countRange>
+          <min>0</min>
+          <max>10</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+</Patch>
