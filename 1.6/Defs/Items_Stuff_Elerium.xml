@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <ThingDef ParentName="RockBase">
+    <defName>Elerium_Ore</defName>
+    <label>compacted zrbite</label>
+    <description>A chunk of rock containing a small fragment of Elerium, presumably left behind from some long forgotten ship.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(115,106,98)</color>
+      <colorTwo>(224,160,0)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>3200</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Elerium</mineableThing>
+      <mineableYield>2</mineableYield>
+      <mineableScatterCommonality>0.01</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
+    </building>
+  </ThingDef>
+
   <ThingDef ParentName="ResourceBase">
     <defName>Elerium</defName>
     <label>elerium-115</label>

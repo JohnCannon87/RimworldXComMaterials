@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Adds to asteroids -->
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Odyssey</li>
+	</mods>
+<match Class="PatchOperationAdd">
+	<xpath>Defs/GenStepDef[defName="Asteroid"]/genStep/mineableCounts</xpath>
+    <value>   
+    <Elerium_Ore>1~10</Elerium_Ore>
+    </value>
+	</match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Odyssey</li>
+	</mods>
+<match Class="PatchOperationAdd">
+	<xpath>Defs/GenStepDef[defName="Asteroid_NoRuins"]/genStep/mineableCounts</xpath>
+    <value>
+    <Elerium_Ore>1~10</Elerium_Ore>
+    </value>
+	</match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Odyssey</li>
+	</mods>
+<match Class="PatchOperationAdd">
+	<xpath>Defs/GenStepDef[defName="Asteroid_NoRuins"]/genStep/mineableCounts</xpath>
+    <value>
+    <Zrbite_Ore>1~10</Zrbite_Ore>
+    </value>
+	</match>
+</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Odyssey</li>
+	</mods>
+<match Class="PatchOperationAdd">
+	<xpath>Defs/GenStepDef[defName="Asteroid_NoRuins"]/genStep/mineableCounts</xpath>
+    <value>
+    <Zrbite_Ore>1~10</Zrbite_Ore>
+    </value>
+	</match>
+</Operation>
+
+
+
+</Patch>
