@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="RockBase">
     <defName>Elerium_Ore</defName>
-    <label>compacted zrbite</label>
+    <label>compacted elerium</label>
     <description>A chunk of rock containing a small fragment of Elerium, presumably left behind from some long forgotten ship.</description>
     <graphicData>
       <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
